@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp"
+  android:background="#000"
+  android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/recyclerView"
+    >
+  </androidx.recyclerview.widget.RecyclerView>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:id="@+id/nodatatxt"
+    android:layout_gravity="center"
+    android:visibility="gone"
+    android:gravity="center"
+    android:textSize="25sp"
+    android:text="@string/nodata"/>
+
+</LinearLayout>

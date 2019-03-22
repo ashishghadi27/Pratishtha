@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/rounded_white">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/rounded_white"
+    >
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/title"
+      android:text="Nucleus"
+      android:textColor="#fff"
+      android:padding="5dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/title"
+      android:padding="5dp"
+      android:textColor="#fff"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:id="@+id/description"
+      android:text="This is some description about nucleus"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/date"
+      android:text="Nucleus"
+      android:textColor="#fff"
+      android:layout_below="@+id/description"
+      android:padding="5dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      />
+
+  </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="105dp"
+  android:paddingStart="20dp"
+  android:background="#000"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.github.vipulasri.timelineview.TimelineView
+      android:id="@+id/timeline"
+      android:layout_width="wrap_content"
+      android:layout_height="105dp"
+      app:markerInCenter="true"
+      app:marker="@drawable/info"
+      app:lineWidth="2dp"
+      app:startLineColor="#fff"
+      app:endLineColor="#fff"/>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="center"
+      android:layout_marginStart="10dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/event_name"
+        android:textColor="#fff"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9 Feb 2019"
+        android:id="@+id/time"
+        android:textSize="15sp"
+        android:textColor="#fff"/>
+
+    </LinearLayout>
+
+
+
+  </LinearLayout>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#fff"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#fff"
+    android:visibility="gone"
+    android:id="@+id/desc"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"/>
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1098117121054",
+    "firebase_url": "https://pratishtha-5d5d9.firebaseio.com",
+    "project_id": "pratishtha-5d5d9",
+    "storage_bucket": "pratishtha-5d5d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098117121054:android:6c9487ee5a703297",
+        "android_client_info": {
+          "package_name": "com.sakecfest.shahandanchor.ashish.pratishtha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098117121054-jcd3rj5oqq3rqkvja3o80vmp3arp180v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sakecfest.shahandanchor.ashish.pratishtha",
+            "certificate_hash": "10a116627157f32f77e6ff412f46898232f16512"
+          }
+        },
+        {
+          "client_id": "1098117121054-c2lim0sggoi402el9oamsnn6fgb5pcja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGlH6Mei2P9N6JPjkC5JjC_1r-bX4Xx1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098117121054-c2lim0sggoi402el9oamsnn6fgb5pcja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/navigation_home"
+    android:icon="@drawable/home"
+    android:title="@string/title_home"/>
+
+  <item
+    android:id="@+id/sakecmun"
+    android:icon="@drawable/logo"
+    android:title="Sakec Mun"
+    />
+
+  <item
+    android:id="@+id/navigation_schedule"
+    android:icon="@drawable/schedule"
+    android:title="Schedule"/>
+
+  <item
+    android:id="@+id/navigation_info"
+    android:icon="@drawable/info"
+    android:title="Info"/>
+
+</menu>
